@@ -12,6 +12,7 @@
 .main--container {
     display: flex;
     width: 100%;
+    /* padding: 5% 10%; */
     height: 100vh;
     background-color: hsl(212, 45%, 89%);
     justify-content: center;
@@ -21,7 +22,7 @@
 }
 
 .container {
-    width: 290px;
+    width: 20%;
     height: 77vh;
     display: flex;
     background-color: hsl(0, 0%, 100%);
@@ -56,5 +57,12 @@
     font-weight: 400;
     flex: 1;
     margin-top: 15px;
-    ;
+}
+
+@media only screen and (max-width: 1192px) {
+    .container {
+        width: 27%;
+        /* height: 60%; */
+
+    }
 }
